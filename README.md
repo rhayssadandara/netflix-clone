@@ -1,5 +1,5 @@
 
-## Desafio ReactJS usando API **Ainda em construção**
+## Desafio ReactJS usando API **(Ainda em construção)**
 
 Desafio final do módulo 2 do @vainaweb usando React. O desafio é renderizar 3 dados de uma API local e criar um estilo livre. 
 
