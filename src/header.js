@@ -20,23 +20,25 @@ const Logo= styled.img`
 const Links= styled.nav`
     width: 65%;
     color: #ffffff;
+    font-size: 20px;
+    font-weight: bolder;
     display: flex;
     align-items: center;
     justify-content: center;
     
-    &nav{
+    & nav{
         font-size: 20px;
         font-weight: bolder;
       }
       
-    &a{
+    & a{
         margin-left: 18px;
         text-decoration: none;
       }
-    &a:link, :visited {
+    & :visited {
         color:white;
     }
-    &a:hover {
+    & :hover {
       color: rgb(134, 34, 34);
      }
       

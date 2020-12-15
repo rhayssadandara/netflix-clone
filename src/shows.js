@@ -16,6 +16,10 @@ const MapItems= styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    &:hover, :active{
+        background-color: rgba(100, 28, 28, 0.253);
+      }
 `;
 const ImgDiv= styled.div`
     width: 50%;
@@ -37,6 +41,19 @@ const Download= styled.a`
     padding: 0px;
     display: flex;
     justify-content: center;
+
+    &:link, :visited {
+        color: white;
+        border: 2px solid white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+      }
+    &:hover, :active {
+        background-color: rgba(247, 169, 26, 0.534);
+        color: black;
+        border: 2px solid black;
+      }
 `;
 
 class Shows extends Component {
